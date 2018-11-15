@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		779C3652219CCB8B00D28A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C3651219CCB8B00D28A4E /* AppDelegate.swift */; };
+		779C3654219CCB8B00D28A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C3653219CCB8B00D28A4E /* ViewController.swift */; };
+		779C3657219CCB8B00D28A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779C3655219CCB8B00D28A4E /* Main.storyboard */; };
+		779C3659219CCB8F00D28A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779C3658219CCB8F00D28A4E /* Assets.xcassets */; };
+		779C365C219CCB8F00D28A4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779C365A219CCB8F00D28A4E /* LaunchScreen.storyboard */; };
+		779C3667219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C3666219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusTests.swift */; };
+		779C3672219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C3671219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusUITests.swift */; };
+		779C3680219CD0C200D28A4E /* blankbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 779C367F219CD0C200D28A4E /* blankbox.png */; };
+		779C3682219CD3AB00D28A4E /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 779C3681219CD3AB00D28A4E /* plus.png */; };
+		779C3688219CDBCE00D28A4E /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 779C3687219CDBCE00D28A4E /* bell.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		779C3663219CCB8F00D28A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779C3646219CCB8B00D28A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779C364D219CCB8B00D28A4E;
+			remoteInfo = "TECH360 Proj. Andy, Brian, Jesus";
+		};
+		779C366E219CCB8F00D28A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779C3646219CCB8B00D28A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779C364D219CCB8B00D28A4E;
+			remoteInfo = "TECH360 Proj. Andy, Brian, Jesus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		779C364E219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TECH360 Proj. Andy, Brian, Jesus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779C3651219CCB8B00D28A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		779C3653219CCB8B00D28A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		779C3656219CCB8B00D28A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		779C3658219CCB8F00D28A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779C365B219CCB8F00D28A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		779C365D219CCB8F00D28A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779C3662219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TECH360 Proj. Andy, Brian, JesusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779C3666219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TECH360_Proj__Andy__Brian__JesusTests.swift; sourceTree = "<group>"; };
+		779C3668219CCB8F00D28A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779C366D219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TECH360 Proj. Andy, Brian, JesusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779C3671219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TECH360_Proj__Andy__Brian__JesusUITests.swift; sourceTree = "<group>"; };
+		779C3673219CCB8F00D28A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779C367F219CD0C200D28A4E /* blankbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blankbox.png; path = ../../blankbox.png; sourceTree = "<group>"; };
+		779C3681219CD3AB00D28A4E /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../plus.png; sourceTree = "<group>"; };
+		779C3687219CDBCE00D28A4E /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bell.png; path = ../../bell.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779C364B219CCB8B00D28A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C365F219CCB8F00D28A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C366A219CCB8F00D28A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		779C3645219CCB8B00D28A4E = {
+			isa = PBXGroup;
+			children = (
+				779C3650219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus */,
+				779C3665219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusTests */,
+				779C3670219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusUITests */,
+				779C364F219CCB8B00D28A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779C364F219CCB8B00D28A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779C364E219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus.app */,
+				779C3662219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusTests.xctest */,
+				779C366D219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779C3650219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus */ = {
+			isa = PBXGroup;
+			children = (
+				779C3651219CCB8B00D28A4E /* AppDelegate.swift */,
+				779C3653219CCB8B00D28A4E /* ViewController.swift */,
+				779C3655219CCB8B00D28A4E /* Main.storyboard */,
+				779C3658219CCB8F00D28A4E /* Assets.xcassets */,
+				779C365A219CCB8F00D28A4E /* LaunchScreen.storyboard */,
+				779C365D219CCB8F00D28A4E /* Info.plist */,
+				779C3687219CDBCE00D28A4E /* bell.png */,
+				779C3681219CD3AB00D28A4E /* plus.png */,
+				779C367F219CD0C200D28A4E /* blankbox.png */,
+			);
+			path = "TECH360 Proj. Andy, Brian, Jesus";
+			sourceTree = "<group>";
+		};
+		779C3665219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusTests */ = {
+			isa = PBXGroup;
+			children = (
+				779C3666219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusTests.swift */,
+				779C3668219CCB8F00D28A4E /* Info.plist */,
+			);
+			path = "TECH360 Proj. Andy, Brian, JesusTests";
+			sourceTree = "<group>";
+		};
+		779C3670219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				779C3671219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusUITests.swift */,
+				779C3673219CCB8F00D28A4E /* Info.plist */,
+			);
+			path = "TECH360 Proj. Andy, Brian, JesusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		779C364D219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779C3676219CCB8F00D28A4E /* Build configuration list for PBXNativeTarget "TECH360 Proj. Andy, Brian, Jesus" */;
+			buildPhases = (
+				779C364A219CCB8B00D28A4E /* Sources */,
+				779C364B219CCB8B00D28A4E /* Frameworks */,
+				779C364C219CCB8B00D28A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TECH360 Proj. Andy, Brian, Jesus";
+			productName = "TECH360 Proj. Andy, Brian, Jesus";
+			productReference = 779C364E219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		779C3661219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779C3679219CCB8F00D28A4E /* Build configuration list for PBXNativeTarget "TECH360 Proj. Andy, Brian, JesusTests" */;
+			buildPhases = (
+				779C365E219CCB8F00D28A4E /* Sources */,
+				779C365F219CCB8F00D28A4E /* Frameworks */,
+				779C3660219CCB8F00D28A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779C3664219CCB8F00D28A4E /* PBXTargetDependency */,
+			);
+			name = "TECH360 Proj. Andy, Brian, JesusTests";
+			productName = "TECH360 Proj. Andy, Brian, JesusTests";
+			productReference = 779C3662219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		779C366C219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779C367C219CCB8F00D28A4E /* Build configuration list for PBXNativeTarget "TECH360 Proj. Andy, Brian, JesusUITests" */;
+			buildPhases = (
+				779C3669219CCB8F00D28A4E /* Sources */,
+				779C366A219CCB8F00D28A4E /* Frameworks */,
+				779C366B219CCB8F00D28A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779C366F219CCB8F00D28A4E /* PBXTargetDependency */,
+			);
+			name = "TECH360 Proj. Andy, Brian, JesusUITests";
+			productName = "TECH360 Proj. Andy, Brian, JesusUITests";
+			productReference = 779C366D219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779C3646219CCB8B00D28A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Code Next Student";
+				TargetAttributes = {
+					779C364D219CCB8B00D28A4E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					779C3661219CCB8F00D28A4E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 779C364D219CCB8B00D28A4E;
+					};
+					779C366C219CCB8F00D28A4E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 779C364D219CCB8B00D28A4E;
+					};
+				};
+			};
+			buildConfigurationList = 779C3649219CCB8B00D28A4E /* Build configuration list for PBXProject "TECH360 Proj. Andy, Brian, Jesus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 779C3645219CCB8B00D28A4E;
+			productRefGroup = 779C364F219CCB8B00D28A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779C364D219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus */,
+				779C3661219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusTests */,
+				779C366C219CCB8F00D28A4E /* TECH360 Proj. Andy, Brian, JesusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		779C364C219CCB8B00D28A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C3680219CD0C200D28A4E /* blankbox.png in Resources */,
+				779C3682219CD3AB00D28A4E /* plus.png in Resources */,
+				779C3688219CDBCE00D28A4E /* bell.png in Resources */,
+				779C365C219CCB8F00D28A4E /* LaunchScreen.storyboard in Resources */,
+				779C3659219CCB8F00D28A4E /* Assets.xcassets in Resources */,
+				779C3657219CCB8B00D28A4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C3660219CCB8F00D28A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C366B219CCB8F00D28A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779C364A219CCB8B00D28A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C3654219CCB8B00D28A4E /* ViewController.swift in Sources */,
+				779C3652219CCB8B00D28A4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C365E219CCB8F00D28A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C3667219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C3669219CCB8F00D28A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C3672219CCB8F00D28A4E /* TECH360_Proj__Andy__Brian__JesusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		779C3664219CCB8F00D28A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779C364D219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus */;
+			targetProxy = 779C3663219CCB8F00D28A4E /* PBXContainerItemProxy */;
+		};
+		779C366F219CCB8F00D28A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779C364D219CCB8B00D28A4E /* TECH360 Proj. Andy, Brian, Jesus */;
+			targetProxy = 779C366E219CCB8F00D28A4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		779C3655219CCB8B00D28A4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779C3656219CCB8B00D28A4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		779C365A219CCB8F00D28A4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779C365B219CCB8F00D28A4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		779C3674219CCB8F00D28A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		779C3675219CCB8F00D28A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779C3677219CCB8F00D28A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECH360 Proj. Andy, Brian, Jesus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CodeNextStudent.TECH360-Proj--Andy--Brian--Jesus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779C3678219CCB8F00D28A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECH360 Proj. Andy, Brian, Jesus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CodeNextStudent.TECH360-Proj--Andy--Brian--Jesus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		779C367A219CCB8F00D28A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECH360 Proj. Andy, Brian, JesusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CodeNextStudent.TECH360-Proj--Andy--Brian--JesusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TECH360 Proj. Andy, Brian, Jesus.app/TECH360 Proj. Andy, Brian, Jesus";
+			};
+			name = Debug;
+		};
+		779C367B219CCB8F00D28A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECH360 Proj. Andy, Brian, JesusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CodeNextStudent.TECH360-Proj--Andy--Brian--JesusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TECH360 Proj. Andy, Brian, Jesus.app/TECH360 Proj. Andy, Brian, Jesus";
+			};
+			name = Release;
+		};
+		779C367D219CCB8F00D28A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECH360 Proj. Andy, Brian, JesusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CodeNextStudent.TECH360-Proj--Andy--Brian--JesusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TECH360 Proj. Andy, Brian, Jesus";
+			};
+			name = Debug;
+		};
+		779C367E219CCB8F00D28A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TECH360 Proj. Andy, Brian, JesusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CodeNextStudent.TECH360-Proj--Andy--Brian--JesusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TECH360 Proj. Andy, Brian, Jesus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		779C3649219CCB8B00D28A4E /* Build configuration list for PBXProject "TECH360 Proj. Andy, Brian, Jesus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C3674219CCB8F00D28A4E /* Debug */,
+				779C3675219CCB8F00D28A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779C3676219CCB8F00D28A4E /* Build configuration list for PBXNativeTarget "TECH360 Proj. Andy, Brian, Jesus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C3677219CCB8F00D28A4E /* Debug */,
+				779C3678219CCB8F00D28A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779C3679219CCB8F00D28A4E /* Build configuration list for PBXNativeTarget "TECH360 Proj. Andy, Brian, JesusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C367A219CCB8F00D28A4E /* Debug */,
+				779C367B219CCB8F00D28A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779C367C219CCB8F00D28A4E /* Build configuration list for PBXNativeTarget "TECH360 Proj. Andy, Brian, JesusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C367D219CCB8F00D28A4E /* Debug */,
+				779C367E219CCB8F00D28A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779C3646219CCB8B00D28A4E /* Project object */;
+}
